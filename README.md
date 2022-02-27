@@ -12,6 +12,6 @@ The application is set to run on port: **3050**
 
 To run the application use:
 
-    docker-compose up -d
+    docker-compose up -d --build --force-recreat
 
 and you can enter the front-end by http://localhost:3050/
